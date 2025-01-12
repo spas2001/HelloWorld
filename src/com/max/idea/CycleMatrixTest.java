@@ -16,7 +16,6 @@ public class CycleMatrixTest {
             int j =0;
             int liCol = 0;
             int liStr = 0 ;
-            double sum = 0;
             //1. Пользователь вводит размерность массива
             System.out.println("Введите размер массива для обработки");
             arrSizeX = GetInputValue("Введите размер массива 1 :", scanner);
@@ -48,7 +47,7 @@ public class CycleMatrixTest {
             }
             //произведите вывод первой строки матрицы на экран, где каждый элемент умножается на 3
             System.out.println("Исходная 1-я строка матрицы");
-            j = 1;
+            j = 0;
             for (i = 0; i < arrSizeX; i++) {
                 System.out.print(" ["+arrCalc[i][j]+"] ");
                }
