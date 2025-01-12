@@ -19,6 +19,8 @@ public class OperatorTest {
             varMidArity += myArray[i];
 
         }
+        //Вычисляем среднеарифметическое
+        varMidArity = varMidArity/myArray.length;
         System.out.println("Среднее арифметическое этих чисел: " + varMidArity);
         //3. Разделить среднее арифметическое на 2 и округлить в меньшую сторону
         varMidArity /=2;
