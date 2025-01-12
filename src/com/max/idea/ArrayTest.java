@@ -1,5 +1,5 @@
 package com.max.idea;
-/**
+/*
  * Пример работы с массивами. Задача № 3
  * @author Булгаков В.В.
  * 10.01.2025 г
@@ -25,6 +25,5 @@ public class ArrayTest {
         System.out.println("Последний элемент: " +Arr[Arr.length - 1]);
         System.out.println("Средний элемент: " +arMiddle);
         System.out.println("Результат: "+(Arr[0] + arMiddle));
-
     }
 }

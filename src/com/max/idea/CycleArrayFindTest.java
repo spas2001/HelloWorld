@@ -42,7 +42,7 @@ public class CycleArrayFindTest {
         while (i < arrFind.length) {
             // 3. Если массив содержит хотя бы одну из констант, вывести текст "Данное значение имеется в константах".
             if (arrFind[i].equals(x) || arrFind[i].equals(y) || arrFind[i].equals(z)) {
-                System.out.print("Данное значение имеется в константах");
+                System.out.println("Данное значение имеется в константах");
                 return;
             }
             i++;
