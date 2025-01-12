@@ -28,7 +28,7 @@ public class OperatorCalcTest {
                 varResult = myArray[0]-myArray[1];
                 break;
             case '/':
-                if (myArray[0]==0){
+                if (myArray[1]==0){
                     //Деление на 0!
                     System.out.println("Деление на 0 недопустимо!");
                     return;
