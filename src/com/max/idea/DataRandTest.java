@@ -1,11 +1,10 @@
 package com.max.idea;
 
 import java.util.Random;
-
 /*
  * Пример работы с данными. Задача № 14
  * Булгаков В.В.
- * 13.01.2025 г
+ * 13.01.2025 г.
  */
 public class DataRandTest {
     public static void main(String[] args) {
