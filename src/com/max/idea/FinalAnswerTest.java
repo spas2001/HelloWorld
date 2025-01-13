@@ -43,7 +43,7 @@ public class FinalAnswerTest {
                         System.out.println("Обидно, приходи в другой раз");
                         return;
                     }
-
+                    System.out.println("Подумай еще!");
                 }
 
 
