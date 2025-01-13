@@ -65,7 +65,7 @@ public class FinalXTest {
     }
 
 
-                }
+    }
     public static String GetInputValue(String prompt, Scanner scanner) {
         //Сделаем отдельную функцию считывания с клавиатуры
         System.out.print(prompt);
