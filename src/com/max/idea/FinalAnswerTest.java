@@ -38,6 +38,7 @@ public class FinalAnswerTest {
                     return;
                 }
                 else {
+                    //Если использовал подсказку и ошибся - сразу выходим
                     if (lbUseHelp) {
                         System.out.println("Обидно, приходи в другой раз");
                         return;
