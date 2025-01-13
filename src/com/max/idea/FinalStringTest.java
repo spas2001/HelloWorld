@@ -2,8 +2,7 @@ package com.max.idea;
 
 import java.util.Scanner;
 
-/*
- * Итоговая задача № 3
+/* Итоговая задача № 3
  * Булгаков В.В.
  * 13.01.2025 г.
  */
